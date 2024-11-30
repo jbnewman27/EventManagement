@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-list {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-list li {
+    background-color: transparent;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border: 1px solid transparent;
+}
+
+.event-list li:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+.event-list li img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.event-list li strong {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
+
+button, input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.logout, .orderHistory {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #000000;
+}
+
+.orderHistory {
+    right: 150px;
+}
+
+.logout:hover, .orderHistory:hover {
+    background-color: #c82333;
+}
+
+.orders{
+    display: block;
+    list-style-type: none;
+    padding: 0;
+}
+.orders li{
+    background-color: transparent;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border: 1px solid transparent;
+}
+.orders li:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+.orders li strong {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
+.orders li .date{
+    display: block;
+    font-size: 0.5em;
+    color: #333;
+    margin-top: 10px;
+}
+.cart-list {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-list li {
+    background-color: transparent;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border: 1px solid transparent;
+}
+
+.cart-list li:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+.cart-list li strong {
+    font-size: 1em;
+    color: #333;
+}
+
+.cart-list li span {
+    font-size: 0.9em;
+    color: #666;
+    margin-left: 10px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dashboard-boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.box {
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    margin-bottom: 20px;
+    height: 300px; /* Adjust this value to make the boxes longer vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+    color: inherit;
+}
+
+.half-width {
+    width: 48%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.box h2 {
+    margin-bottom: 20px;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.box ul li {
+    margin-bottom: 10px;
+}
+
+.box:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
